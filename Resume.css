@@ -1,3 +1,21 @@
-.title {
-    color: green;
+Resume.css
+
+.body{
+    background-color: azure;
+}
+
+#container{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: antiquewhite;
+    height: 700px;
+    padding: 20px;
+    color: blue;
+}
+
+#ProfilePicture{
+    width: 30%;
+    float: right;
+    padding: 10px;
+    border: 2px solid black;
 }

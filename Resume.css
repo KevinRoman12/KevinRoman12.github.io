@@ -18,22 +18,8 @@ body {
    
 }
 
-#pageContent ul img {
 
-    float: right;
-    width: 150px;
-    
-    height: auto;
-    margin: 0 0 8px 12px;
-   
-    border-radius: 8px;
-    object-fit: cover;
-     border: 2px dashed #ff4400;
-    
-    border-collapse: collapse;
-   
 
-}
 
 
 #wrapper {
@@ -62,7 +48,7 @@ a.button {
     padding: 6px;
     border: 1px outset buttonborder;
     border-radius: 7px;
-    color: black;
+    color: #000000;
     background-color: #ffffff;
     text-decoration: none;
     margin: 20px;
@@ -87,62 +73,3 @@ content {
     padding-left: 5px;
 }
 
-#content h3 {
-    color: #476be8;
-    margin-left: 0px;
-}
-
-#pageContent {
-    padding-left: 15px
-}
-
-#pageContent img {
-
-    width: 70%;
-}
-
-#pageContent li {
-    padding-bottom: 10px;
-}
-
-#leftEdge {
-    float: left;
-    border-left: solid #cbcbcb thin;
-    background: #d78a1a;
-    width: 1%;
-    height: 2900px;
-}
-
-#rightEdge {
-    float: right;
-    border-left: solid #CCCCCC thin;
-    background: #d78a1a;
-    width: 1%;
-    height: 2900px;
-}
-
-#footer {
-    width: 99.8%;
-    text-align: center;
-    float: left;
-    font-size: 12px;
-    font-style: italic;
-    background: #f9e9a1;
-    border: solid #bfbfbf thin;
-    border-top: none
-}
-
-#footer p {
-    padding-left: 10px;
-}
-
-#pageContent p {
-    padding-left: 20px;
-    line-height: 1.6;
-}
-
-#menu img {
-    margin-left: 18px;
-    width: 90%;
-    margin-top: 20px;
-}

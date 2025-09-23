@@ -1,7 +1,7 @@
 Resume.css
 
 body {
-    background-color: beige;
+    background-color: #CCCCCC;
 }
 
 #pageContent ul {
@@ -10,6 +10,14 @@ body {
     max-width: 800px;
 }
 
+#profilePhoto {
+    width: 30%;
+    float: right;
+    padding: 5px;
+    border: 10px solid #7c429a;
+}
+    
+}
 
 #pageContent li {
     display: flow-root;
@@ -18,8 +26,22 @@ body {
    
 }
 
+#pageContent ul img {
 
+    float: right;
+    width: 150px;
+    
+    height: auto;
+    margin: 0 0 8px 12px;
+   
+    border-radius: 8px;
+    object-fit: cover;
+     border: 8px solid #7c429a;
+    
+    border-collapse: collapse;
+   
 
+}
 
 
 #wrapper {
@@ -27,17 +49,17 @@ body {
     margin-right: 150px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     height: 3000px;
-    background-color: beige;
+    background-color: #CCCCCC;
     color:
 }
 
 #header {
     width: 99.8%;
     height: 50px;
-    background: #d1aae5;
-    border: solid #ffffff thin;
-    border-bottom: solid #000000 10px;
-    border-top: solid #000000 10px;
+    background: #7c429a;
+    border: solid #d1aae5 thin;
+    border-bottom: solid #d1aae5 10px;
+    border-top: solid #d1aae5 10px;
     padding-top: 20px;
     align-content: center;
     text-align: center;
@@ -48,8 +70,8 @@ a.button {
     padding: 6px;
     border: 1px outset buttonborder;
     border-radius: 7px;
-    color: #000000;
-    background-color: #ffffff;
+    color: black;
+    background-color: #CCCCCC;
     text-decoration: none;
     margin: 20px;
 }
@@ -68,8 +90,67 @@ content {
 }
 
 #content h2 {
-    color: #000000;
+    color: #d1aae5;
     color: #000000;
     padding-left: 5px;
 }
 
+#content h3 {
+    color: #d1aae5;
+    margin-left: 0px;
+}
+
+#pageContent {
+    padding-left: 15px
+}
+
+#pageContent img {
+
+    width: 70%;
+}
+
+#pageContent li {
+    padding-bottom: 10px;
+}
+
+#leftEdge {
+    float: left;
+    border-left: solid #CCCCCC thin;
+    background: #d1aae5;
+    width: 1%;
+    height: 2900px;
+}
+
+#rightEdge {
+    float: right;
+    border-left: solid #CCCCCC thin;
+    background: #d1aae5;
+    width: 1%;
+    height: 2900px;
+}
+
+#footer {
+    width: 99.8%;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    background: #d1aae5;
+    border: solid #CCCCCC thin;
+    border-top: none
+}
+
+#footer p {
+    padding-left: 10px;
+}
+
+#pageContent p {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+#menu img {
+    margin-left: 18px;
+    width: 90%;
+    margin-top: 20px;
+}
